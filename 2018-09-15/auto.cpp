@@ -18,6 +18,7 @@ int main ()
   cout << &texas << endl;
   cout << "In main() , year = " << year << ", &year = ";
   cout << &year << endl;
+  
   return 0;
 }
 
