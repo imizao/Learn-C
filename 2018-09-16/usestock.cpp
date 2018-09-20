@@ -8,7 +8,7 @@ int mian() {
     Stock stock1("NameSmart", 12, 20.0);
     stock1.show();
 
-    Stock stock2 = Stock("Boffo objects", 2 ,2.0);
+    Stock stock2 = Stock("Boffo objects", 2, 2.0);
     stock2.show();
 
     cout << "Assigning stock1 to stock2:\n";

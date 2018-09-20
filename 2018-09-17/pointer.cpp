@@ -6,6 +6,8 @@ int main() {
   int updates = 6;
   int *p_updates;
 
+  cout << *p_updates << endl;
+ 
   p_updates = &updates;
   
   cout << "Values: updates = " << updates;
@@ -16,6 +18,6 @@ int main() {
 
   *p_updates = *p_updates + 1;
   cout << "Now updates = " << updates << endl;
-
+  cout << p_updates << endl;
   return 0;
 }
